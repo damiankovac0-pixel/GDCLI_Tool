@@ -27,12 +27,12 @@ The released native package targets **macOS arm64**. Windows, Linux, Intel Macs,
 Requirements: a legitimate Steam game installation, [uv](https://docs.astral.sh/uv/), and your existing AI CLI/chat if you want natural-language planning. The tool itself makes no model-provider calls; your AI client's own model/subscription arrangements are separate.
 
 ```sh
-git clone https://github.com/damiankovac0-pixel/GDAITRANS.git
-cd GDAITRANS
+git clone https://github.com/damiankovac0-pixel/GDCLI_Tool.git
+cd GDCLI_Tool
 uv sync --locked
 ```
 
-Download `pandagamer.gdcli.geode` from the repository's [GitHub release](https://github.com/damiankovac0-pixel/GDAITRANS/releases). Save/close Geometry Dash normally, then:
+Download `pandagamer.gdcli.geode` from the repository's [GitHub release](https://github.com/damiankovac0-pixel/GDCLI_Tool/releases). Save/close Geometry Dash normally, then:
 
 ```sh
 uv run gdcli install --bridge /absolute/path/pandagamer.gdcli.geode
@@ -118,7 +118,7 @@ For an MCP-capable AI client, use this stdio server configuration after `uv sync
 {
   "mcpServers": {
     "gdcli": {
-      "command": "/absolute/path/GDAITRANS/.venv/bin/python",
+      "command": "/absolute/path/GDCLI_Tool/.venv/bin/python",
       "args": ["-m", "gdaitrans", "serve"]
     }
   }
