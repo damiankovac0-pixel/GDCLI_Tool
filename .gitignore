@@ -24,6 +24,8 @@ CCLocalLevels.dat*
 backups/
 outputs/
 recordings/
+*.geode
+*.dylib
 
 # macOS metadata
 .DS_Store

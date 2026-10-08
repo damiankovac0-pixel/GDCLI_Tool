@@ -1,0 +1,11 @@
+{
+  "geode": "5.10.1",
+  "gd": {
+    "mac": "2.2081"
+  },
+  "id": "pandagamer.gdcli",
+  "name": "GDCLI Local Bridge",
+  "version": "0.1.0",
+  "developer": "GDCLI",
+  "description": "Private local Unix-socket bridge for background Geometry Dash authoring and play control."
+}
