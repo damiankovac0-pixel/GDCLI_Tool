@@ -1,0 +1,29 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches, and build output
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Private game saves and generated artifacts
+CCGameManager.dat*
+CCLocalLevels.dat*
+backups/
+outputs/
+recordings/
+
+# macOS metadata
+.DS_Store

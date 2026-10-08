@@ -1,0 +1,10 @@
+[project]
+name = "gdaitrans"
+version = "0.1.0"
+description = "AI-callable tooling for creating and iterating on Geometry Dash levels."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
